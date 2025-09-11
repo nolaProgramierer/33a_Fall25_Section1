@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+    
+    display: flex;
+    /* height: 350px; */
+
+    /* flex-direction */
+    /* --------------------*/
+    flex-direction: row;
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+   
+    /* Flex-wrap -- cross start to cross end or vice versa*/
+    /* -------------------------------------------------------- */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap;  */
+
+
+    /* Aligning on the main axis */
+    /* ------------------------------- */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    
+    /* Cross-axis alignment */
+    /* ------------------------------- */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+
+    /* Multiple lines: How items are spread out over the cross axis*/
+    /* ------------------------------- */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: stretch; */
+
+
+}
+.box {
+   height: 50px;
+   width: 25%; 
+}
+.box1 {
+    background-color: beige;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: darkgray; 
+}
+.box4 {
+    background-color: honeydew;
+}
+.box5 {
+    background-color: dodgerblue;
+}
+.box6 {
+    background-color:khaki;
+}
+.box7 {
+    background-color:mediumpurple;
+}
+.box8 {
+    background-color:peru;
+}
+.box9 {
+    background-color:tomato;
+}
+.box10 {
+    background-color:orange;
+}
+
